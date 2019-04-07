@@ -1,6 +1,6 @@
 # BenriContainer
 ## 概要
-Kubernetesで様々な検証に使うソフトウェアが入っている便利コンテナ。
+Kubernetesで様々な検証をする時に使うソフトウェアが入っている便利コンテナ。
 
 ## インストールされているソフトウェア
 - iputils-ping
