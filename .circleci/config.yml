@@ -5,6 +5,10 @@ executors:
       - image: google/cloud-sdk:241.0.0
 jobs:
   build:
+    executor:
+      name: default
+    steps:
+    - checkout
     - run:
         name: docker push
         command: |
